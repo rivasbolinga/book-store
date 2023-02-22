@@ -1,7 +1,7 @@
 import { Link, Outlet } from 'react-router-dom';
 import './Navbar.scss';
 import Hamburger from './Hamburger';
-import CloseButton from './CloseButton';
+
 import React, { useState, useEffect } from 'react';
 
 const Navbar = () => {
@@ -37,7 +37,7 @@ const Navbar = () => {
   <>
     <nav className="navbar">
       <div className='container-nav'>
-        <a className='navbar-title'>Math Magicians</a>
+        <a className='navbar-title'>Bookstore CMS</a>
         {isMobile && (
           <div className='hamburger-container' onClick={toggleMenu}>
             {showMenu ? (
@@ -55,30 +55,20 @@ const Navbar = () => {
           )}
           <li className='navbar-item'>
             <Link to="/" className='navbar-link' onClick={handleLinkClick}>
-              Home
+              BOOKS
             </Link>
           </li>
           <li className='navbar-item'>
             <Link
-              to="/Calculator"
+              to="Categories"
               className='navbar-link'
               onClick={handleLinkClick}
             >
-              Calculator
+              CATEGORIES
             </Link>
-          </li>
-          <li className='navbar-item'>
-            <Link
-              to="/Quote"
-              className='navbar-link'
-              onClick={handleLinkClick}
-            >
-              Quote
-            </Link>
-          </li>      
+          </li>  
         </ul>
       </div>
-     
     </nav>
     <Outlet />
     </>
