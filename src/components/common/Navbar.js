@@ -1,7 +1,7 @@
 import { Link, Outlet } from 'react-router-dom';
-import './Navbar.scss';
+import './Navbar.scss'
 import Hamburger from './Hamburger';
-
+import CloseButton from './CloseButton'
 import React, { useState, useEffect } from 'react';
 
 const Navbar = () => {
