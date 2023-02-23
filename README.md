@@ -4,20 +4,13 @@ alt="logo" width="140"  height="auto"  />
   <br/>
 
 
-
 # 📖 [BOOK STORE] <a name="about-project"></a>
 
-
-</div>
-
-
-<div align="center">
-
-</div>
- 
  <a name="about-project"></a>
 <!-- PROJECT DESCRIPTION -->
 **[BOOK STORE]** is a website built with React that renders a list of Books, where you can store then, as well as their information like author, categorie and others.
+</div>
+
 
 <!-- TABLE OF CONTENTS -->
 
