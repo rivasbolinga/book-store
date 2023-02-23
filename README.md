@@ -11,10 +11,6 @@ alt="logo" width="140"  height="auto"  />
 </div>
 
 
-
-<img width="1007" align="center" alt="Screenshot 2023-02-14 at 09 32 47" src="https://user-images.githubusercontent.com/103900838/220071889-dc82ea13-d028-435d-84bd-7b8ede9ac33f.png">
-
-
 <div align="center">
 
 </div>
@@ -198,6 +194,7 @@ npm run deploy
 I would like to thank - [ Microverse]
  **![](https://img.shields.io/badge/Microverse-blueviolet)**
 
+<a href="https://www.flaticon.com/free-icons/book-shop" title="book shop icons">Book shop icons created by Freepik - Flaticon</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
