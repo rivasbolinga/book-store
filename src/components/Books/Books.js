@@ -10,10 +10,13 @@ const Books = () => {
 return (
   <>
    <section className="book-section">
-    <Book 
-    title={bookList.title}
-    author={bookList.author}
-    />
+   {bookList.map(book =>( 
+     <Book 
+     title={book.title}
+     author={book.author}
+     />
+   ))}
+   
     <Form />
    </section>
   </>
