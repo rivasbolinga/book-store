@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/103900838/219034373-8a1ee6a4-9d0a-469b-a795-e9de496403a3.svg"
+  <img src="https://user-images.githubusercontent.com/103900838/220873904-932bf986-340f-478f-9fca-4d840c6a47df.png"
 alt="logo" width="140"  height="auto"  />
   <br/>
 
@@ -177,10 +177,9 @@ npm run deploy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [ ] **[Previous and current operantion in the display opf the calculator]**
-- [ ] **[Improve styling]**
-- [ ] **[More problems]**
+- [ ] **[Display a list of books]**
+- [ ] **[Add a book]**
+- [ ] **[Remove a selected book]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
