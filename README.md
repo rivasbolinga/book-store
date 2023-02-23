@@ -1,70 +1,218 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/103900838/219034373-8a1ee6a4-9d0a-469b-a795-e9de496403a3.svg"
+alt="logo" width="140"  height="auto"  />
+  <br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# 📖 [BOOK STORE] <a name="about-project"></a>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1007" align="center" alt="Screenshot 2023-02-14 at 09 32 47" src="https://user-images.githubusercontent.com/103900838/220071889-dc82ea13-d028-435d-84bd-7b8ede9ac33f.png">
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div align="center">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</div>
+ 
+ <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
+**[BOOK STORE]** is a website built with React that renders a list of Books, where you can store then, as well as their information like author, categorie and others.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- TABLE OF CONTENTS -->
 
-### `npm run eject`
+# 📗 Table of Contents
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+</div>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 Built With <a name="built-with"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Tech Stack <a name="tech-stack"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<a href="https://www.w3.org/html/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="55" height="55"/></a><a href="https://www.w3schools.com/css/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/></a>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+<img align="center" src="https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg" alt="react" width="60" height="60"/></a>
 
-## Learn More
+<!-- Features -->
+### Key Features <a name="key-features"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- > Describe between 1-3 key features of the application.-->
+- [ ] **[Totally responsive]**
+- [ ] **[Pop-up menu for mobile version]**
+- [ ] **[Two pages: Books for the books list and categories]**
+- [ ] **[Books rended from harcoded data. ]**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- LIVE DEMO -->
 
-### Analyzing the Bundle Size
+## 🚀 Live Demo <a name="live-demo"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Not available at the moment. 
+Comign soon...
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- GETTING STARTED -->
 
-### Advanced Configuration
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Prerequisites
 
-### `npm run build` fails to minify
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] A PC running any operating system like Windows, Linux, or MacOS
+- [ ] An Internet connection
+- [ ] Git installed
+- [ ] Webpack installed
+- [ ] Knowledge of some basic Git commands
+
+### Setup
+
+- [ ] Link your PC to GitHub
+- [ ] Clone this repository to your desired folder:
+
+
+```
+
+git clone https://github.com/rivasbolinga/book-store.git
+```
+
+
+- [ ] Open the file in your code editor
+
+
+
+
+###  Create React App:
+
+Run these commands:
+- [ ] `npx create-react-app my-app`
+- [ ] `cd my-app`
+- [ ] `npm start`
+
+
+###  Instal linters for React and Redux:
+
+Here the link to install your linters: https://github.com/microverseinc/linters-config
+
+
+###  Run test linters:
+
+To run Stylelint and ESLint tests, run the following commands respectively:
+
+```
+npx stylelint "**/*.{css,scss}"
+```
+
+```
+npx eslint "**/*.{js,jsx}"
+
+```
+###  Run test linters:
+
+**To deploy this project  with react:**
+
+
+1. Change package JSON, 
+
+-adding inside "scrpits":
+
+```
+    "predeploy": "npm run build",
+    "deploy": "npm run build && render deploy"
+```
+
+2. Update:
+
+```
+npm run build
+```
+
+4. Finally, deploy:
+
+```
+npm run deploy
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Andrea Rivas**
+
+- GitHub: [@rivasbolinga](https://github.com/rivasbolinga)
+- Twitter: [@AndreaRivasPal](https://twitter.com/AndreaRivasPal)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **[Previous and current operantion in the display opf the calculator]**
+- [ ] **[Improve styling]**
+- [ ] **[More problems]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+I would like to thank - [ Microverse]
+ **![](https://img.shields.io/badge/Microverse-blueviolet)**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+## ⭐️ Show your support <a name="support"></a>
+
+<!-- > Write a message to encourage readers to support your project -->
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/rivasbolinga/React-Math-magicians/blob/1-setup/MIT.md) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
