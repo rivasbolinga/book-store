@@ -1,70 +1,207 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/103900838/220873904-932bf986-340f-478f-9fca-4d840c6a47df.png"
+alt="logo" width="140"  height="auto"  />
+  <br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# 📖 [BOOK STORE] <a name="about-project"></a>
 
-In the project directory, you can run:
+ <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
+**[BOOK STORE]** is a website built with React that renders a list of Books, where you can store then, as well as their information like author, categorie and others.
+</div>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- TABLE OF CONTENTS -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📗 Table of Contents
 
-### `npm test`
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run build`
+### Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a href="https://www.w3.org/html/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="55" height="55"/></a><a href="https://www.w3schools.com/css/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/></a>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+<img align="center" src="https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg" alt="react" width="60" height="60"/></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- Features -->
+### Key Features <a name="key-features"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- > Describe between 1-3 key features of the application.-->
+- [ ] **[Totally responsive]**
+- [ ] **[Pop-up menu for mobile version]**
+- [ ] **[Two pages: Books for the books list and categories]**
+- [ ] **[Books rended from harcoded data. ]**
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- LIVE DEMO -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Not available at the moment. 
+Comign soon...
 
-## Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- GETTING STARTED -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To get a local copy up and running, follow these steps.
 
-### Analyzing the Bundle Size
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In order to run this project you need:
 
-### Making a Progressive Web App
+- [ ] A PC running any operating system like Windows, Linux, or MacOS
+- [ ] An Internet connection
+- [ ] Git installed
+- [ ] Webpack installed
+- [ ] Knowledge of some basic Git commands
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Setup
 
-### Advanced Configuration
+- [ ] Link your PC to GitHub
+- [ ] Clone this repository to your desired folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+git clone https://github.com/rivasbolinga/book-store.git
+```
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] Open the file in your code editor
+
+
+
+
+###  Create React App:
+
+Run these commands:
+- [ ] `npx create-react-app my-app`
+- [ ] `cd my-app`
+- [ ] `npm start`
+
+
+###  Instal linters for React and Redux:
+
+Here the link to install your linters: https://github.com/microverseinc/linters-config
+
+
+###  Run test linters:
+
+To run Stylelint and ESLint tests, run the following commands respectively:
+
+```
+npx stylelint "**/*.{css,scss}"
+```
+
+```
+npx eslint "**/*.{js,jsx}"
+
+```
+###  Run test linters:
+
+**To deploy this project  with react:**
+
+
+1. Change package JSON, 
+
+-adding inside "scrpits":
+
+```
+    "predeploy": "npm run build",
+    "deploy": "npm run build && render deploy"
+```
+
+2. Update:
+
+```
+npm run build
+```
+
+4. Finally, deploy:
+
+```
+npm run deploy
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Andrea Rivas**
+
+- GitHub: [@rivasbolinga](https://github.com/rivasbolinga)
+- Twitter: [@AndreaRivasPal](https://twitter.com/AndreaRivasPal)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Display a list of books]**
+- [ ] **[Add a book]**
+- [ ] **[Remove a selected book]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+I would like to thank - [ Microverse]
+ **![](https://img.shields.io/badge/Microverse-blueviolet)**
+
+<a href="https://www.flaticon.com/free-icons/book-shop" title="book shop icons">Book shop icons created by Freepik - Flaticon</a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+## ⭐️ Show your support <a name="support"></a>
+
+<!-- > Write a message to encourage readers to support your project -->
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/rivasbolinga/React-Math-magicians/blob/1-setup/MIT.md) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
