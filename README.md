@@ -53,6 +53,7 @@ alt="logo" width="140"  height="auto"  />
 - [ ] **[Pop-up menu for mobile version]**
 - [ ] **[Two pages: Books for the books list and categories]**
 - [ ] **[Books rended from harcoded data. ]**
+- [ ] **[Reducers using Redux: addBook and removeBook ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
