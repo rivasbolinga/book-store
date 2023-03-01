@@ -1,22 +1,26 @@
+import { useSelector } from 'react-redux';
 import Book from './Book';
 import Form from './Form';
-import bookList from '../../bookList';
 
-const Books = () => (
-  <>
-    <section className="book-section">
-      {bookList.map((book) => (
-        <Book
-          key={book.id}
-          title={book.title}
-          author={book.author}
-          category={book.category}
-        />
-      ))}
+const Books = () => {
+  const { bookList } = useSelector((state) => state.books);
 
-      <Form />
-    </section>
-  </>
-);
+  return (
+    <>
+      <section className="book-section">
+        {bookList.map((book) => (
+          <Book
+            key={book.id}
+            id={book.id}
+            title={book.title}
+            author={book.author}
+            category={book.category}
+          />
+        ))}
+        <Form />
+      </section>
+    </>
+  );
+};
 
 export default Books;
