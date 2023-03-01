@@ -1,5 +1,6 @@
 import Book from './Book';
 import Form from './Form';
+import bookList from '../../bookList';
 
 const Books = () => (
   <>
@@ -9,6 +10,7 @@ const Books = () => (
           key={book.id}
           title={book.title}
           author={book.author}
+          category={book.category}
         />
       ))}
 
