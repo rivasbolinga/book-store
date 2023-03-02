@@ -9,7 +9,7 @@ const Form = () => {
 
   const handleAdd = (e) => {
     e.preventDefault();
-    dispatch(addBook({ title, author }));
+    dispatch(postBook({ title, author }));
     setTitle('');
     setAuthor('');
   };

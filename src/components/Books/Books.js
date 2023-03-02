@@ -10,7 +10,7 @@ const Books = () => {
 
   useEffect(() => {
     dispatch(getBooks());
-  }, []);
+  }, [dispatch]);
   if (isLoading) {
     return (
       <div className="loading">
