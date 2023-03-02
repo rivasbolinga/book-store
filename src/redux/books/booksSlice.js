@@ -4,8 +4,8 @@ import bookList from '../../bookList';
 const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi';
 
 const initialState = {
-  bookList : bookList,
-  isLoading: true
+  bookList,
+  isLoading: true,
 };
 
 export const getBooks = createAsyncThunk('post/getBooks', async () => fetch(url)
@@ -35,18 +35,21 @@ const booksSlice = createSlice({
   },
   extraReducers: {
     // while pending
-    [getBooks.pending]: (state) => {
-      state.isLoading = true;
-    },
+    [getBooks.pending]: (state) => ({
+      ...state,
+      isLoading: true,
+    }),
     // if succes we return json response
-    [getBooks.fulfilled]: (state, action) => {
-      state.isLoading = false;
-      state.cartItems = action.payload;
-    },
+    [getBooks.fulfilled]: (state, action) => ({
+      ...state,
+      isLoading: false,
+      cartItems: action.payload,
+    }),
     // if error loading is false
-    [getBooks.rejected]: (state) => {
-      state.isLoading = false;
-    },
+    [getBooks.rejected]: (state) => ({
+      ...state,
+      isLoading: false,
+    }),
   },
 });
 
