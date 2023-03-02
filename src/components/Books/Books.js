@@ -1,10 +1,21 @@
 import { useSelector } from 'react-redux';
 import Book from './Book';
 import Form from './Form';
+import { getBooks } from './redux/books/booksSlice';
 
 const Books = () => {
-  const { bookList } = useSelector((state) => state.books);
+  const { bookList, isLoading } = useSelector((state) => state.books);
 
+useEffect(() => {
+    dispatch(getBooks());
+  }, []);
+if(isLoading) {
+  return (
+    <div className='loading'>
+      <h1>Loading...</h1>
+    </div>
+  );
+}
   return (
     <>
       <section className="book-section">

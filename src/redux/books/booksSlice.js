@@ -1,10 +1,15 @@
-import { createSlice } from '@reduxjs/toolkit';
-
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import bookList from '../../bookList';
 
+const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi';
+
 const initialState = {
-  bookList,
+  bookList : bookList,
+  isLoading: true
 };
+
+export const getBooks = createAsyncThunk('post/getBooks', async () => fetch(url)
+  .then((res) => res.json()));
 
 const booksSlice = createSlice({
   name: 'book',
@@ -26,6 +31,21 @@ const booksSlice = createSlice({
         ...state,
         bookList: state.bookList.filter((book) => book.item_id !== bookId),
       };
+    },
+  },
+  extraReducers: {
+    // while pending
+    [getBooks.pending]: (state) => {
+      state.isLoading = true;
+    },
+    // if succes we return json response
+    [getBooks.fulfilled]: (state, action) => {
+      state.isLoading = false;
+      state.cartItems = action.payload;
+    },
+    // if error loading is false
+    [getBooks.rejected]: (state) => {
+      state.isLoading = false;
     },
   },
 });
