@@ -1,20 +1,33 @@
-import { useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import Book from './Book';
 import Form from './Form';
+import { getBooks } from '../../redux/books/booksSlice';
 
 const Books = () => {
-  const { bookList } = useSelector((state) => state.books);
+  const dispatch = useDispatch();
+  const { bookList, isLoading } = useSelector((state) => state.books);
+  useEffect(() => {
+    dispatch(getBooks());
+  }, [dispatch]);
+  if (isLoading) {
+    return (
+      <div className="loading">
+        <h1>Loading...</h1>
+      </div>
+    );
+  }
 
   return (
     <>
       <section className="book-section">
-        {bookList.map((book) => (
+        {Object.keys(bookList).map((bookId) => (
           <Book
-            key={book.item_id}
-            id={book.item_id}
-            title={book.title}
-            author={book.author}
-            category={book.category}
+            key={bookId}
+            id={bookId}
+            title={bookList[bookId][0].title}
+            author={bookList[bookId][0].author}
+            category={bookList[bookId][0].category}
           />
         ))}
         <Form />
