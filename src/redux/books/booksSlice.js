@@ -32,18 +32,20 @@ export const postBooks = createAsyncThunk('post/postBooks', async (book) => {
   return data;
 });
 
+export const removeBook = createAsyncThunk('remove/removeBooks', async (bookId) => {
+  const response = await fetch(`${url}/apps/${key}/books/${bookId}`, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+  const data = await response.json();
+  return data;
+});
+
 const booksSlice = createSlice({
   name: 'book',
   initialState,
-  reducers: {
-    removeBook: (state, action) => {
-      const bookId = action.payload;
-      return {
-        ...state,
-        bookList: state.bookList.filter((book) => book.item_id !== bookId),
-      };
-    },
-  },
   extraReducers: {
     // while pending
     [getBooks.pending]: (state) => ({
@@ -80,5 +82,4 @@ const booksSlice = createSlice({
   },
 });
 
-export const { removeBook } = booksSlice.actions;
 export default booksSlice.reducer;

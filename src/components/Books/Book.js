@@ -6,7 +6,6 @@ const Book = ({
   id, category, title, author,
 }) => {
   const dispatch = useDispatch();
-
   return (
     <div className="book-card">
       <p className="book-title">{category}</p>

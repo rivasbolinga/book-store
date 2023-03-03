@@ -18,21 +18,18 @@ const Books = () => {
       </div>
     );
   }
-  const bookArray = Object.values(bookList);
+
   return (
     <>
       <section className="book-section">
-
-        {bookArray.map((bookArr) => (
-          bookArr.map((book) => (
-            <Book
-              key={book.item_id}
-              id={book.item_id}
-              title={book.title}
-              author={book.author}
-              category={book.category}
-            />
-          ))
+        {Object.keys(bookList).map((bookId) => (
+          <Book
+            key={bookId}
+            id={bookId}
+            title={bookList[bookId][0].title}
+            author={bookList[bookId][0].author}
+            category={bookList[bookId][0].category}
+          />
         ))}
         <Form />
       </section>
