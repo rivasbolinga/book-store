@@ -3,12 +3,6 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi';
 const key = 'zroBLJ62WkcvT8rhK9Kg';
-
-const initialState = {
-  bookList: [],
-  isLoading: true,
-};
-
 export const getBooks = createAsyncThunk('get/getBooks', async () => {
   const response = await fetch(`${url}/apps/${key}/books`);
   const data = await response.json();
@@ -42,48 +36,52 @@ export const removeBook = createAsyncThunk('remove/removeBooks', async (bookId) 
   const data = await response.json();
   return data;
 });
-
 const booksSlice = createSlice({
-  name: 'book',
-  initialState,
-  extraReducers: {
-    // while pending
-    [getBooks.pending]: (state) => ({
-      ...state,
-      isLoading: true,
-    }),
-    // if succes we return json response
-    [getBooks.fulfilled]: (state, action) => ({
-      ...state,
-      isLoading: false,
-      bookList: action.payload,
-    }),
-    // if error loading is false
-    [getBooks.rejected]: (state) => ({
-      ...state,
-      isLoading: false,
-    }),
-    // while pending
-    [postBooks.pending]: (state) => ({
-      ...state,
-      isLoading: true,
-    }),
-    // if succes we add new book to the bookList
-    [postBooks.fulfilled]: (state, action) => ({
-      ...state,
-      isLoading: false,
-      bookList: [...state.bookList, action.payload],
-    }),
-    // if error loading is false
-    [postBooks.rejected]: (state) => ({
-      ...state,
-      isLoading: false,
-    }),
-    [removeBook.fulfilled]: (state, action) => ({
-      ...state,
-      isLoading: false,
-      bookList: state.bookList.filter((book) => book.item_id !== action.payload.item_id),
-    }),
+  name: 'books',
+  initialState: {
+    bookList: [],
+    isLoading: false,
+  },
+  reducers: {},
+  extraReducers: (builder) => {
+    builder
+      // while pending
+      .addCase(getBooks.pending, (state) => ({
+        ...state,
+        isLoading: true,
+      }))
+      // if success, return json response
+      .addCase(getBooks.fulfilled, (state, action) => ({
+        ...state,
+        isLoading: false,
+        bookList: action.payload,
+      }))
+      // if error, loading is false
+      .addCase(getBooks.rejected, (state) => ({
+        ...state,
+        isLoading: false,
+      }))
+      // while pending
+      .addCase(postBooks.pending, (state) => ({
+        ...state,
+        isLoading: true,
+      }))
+      // if success, add new book to the bookList
+      .addCase(postBooks.fulfilled, (state, action) => ({
+        ...state,
+        isLoading: false,
+        booklist: state.bookList.push(action.payload),
+      }))
+      // if error, loading is false
+      .addCase(postBooks.rejected, (state) => ({
+        ...state,
+        isLoading: false,
+      }))
+      .addCase(removeBook.fulfilled, (state, action) => ({
+        ...state,
+        isLoading: false,
+        bookList: state.bookList.filter((book) => book.item_id !== action.payload.item_id),
+      }));
   },
 });
 

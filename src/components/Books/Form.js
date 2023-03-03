@@ -10,8 +10,7 @@ const Form = () => {
   const handleAdd = async (e) => {
     e.preventDefault();
     try {
-      const response = await dispatch(postBooks({ title, author }));
-      console.log(response);
+      await dispatch(postBooks({ title, author }));
       setTitle('');
       setAuthor('');
     } catch (error) {
