@@ -79,6 +79,11 @@ const booksSlice = createSlice({
       ...state,
       isLoading: false,
     }),
+    [removeBook.fulfilled]: (state, action) => ({
+      ...state,
+      isLoading: false,
+      bookList: state.bookList.filter((book) => book.item_id !== action.payload.item_id),
+    }),
   },
 });
 
