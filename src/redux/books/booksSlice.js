@@ -1,3 +1,4 @@
+import { v4 as uuidv4 } from 'uuid';
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi';
@@ -8,19 +9,24 @@ const initialState = {
   isLoading: true,
 };
 
-export const getBooks = createAsyncThunk('post/getBooks', async () => {
+export const getBooks = createAsyncThunk('get/getBooks', async () => {
   const response = await fetch(`${url}/apps/${key}/books`);
   const data = await response.json();
   return data;
 });
 
-export const postBooks = createAsyncThunk('post/getBooks', async (newBook) => {
+export const postBooks = createAsyncThunk('post/postBooks', async (book) => {
   const response = await fetch(`${url}/apps/${key}/books`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify(newBook),
+    body: JSON.stringify({
+      item_id: uuidv4(),
+      title: book.title,
+      author: book.author,
+      category: '',
+    }),
   });
   const data = await response.json();
   return data;
