@@ -1,15 +1,18 @@
 @import './common.scss';
 
 .navbar {
-  height: 5.938rem;
-  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
+  padding: 23px;
   display: flex;
-  justify-content: start;
   align-items: center;
   flex-direction: row;
-
+  justify-content: space-between;
+  border-bottom: 1px solid #e8e8e8;
+ .nav-tit {
+  display: flex;
+  flex-direction: row;
 .navbar-title {
   font-size: 1.875rem;
+  margin-left: 40px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -26,11 +29,12 @@
     align-items: center;
     padding: 0;
     margin: 0 0 0 40px;
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px;
     border-radius: 5px;
     font-family: $monserrat , sans-serif;
     font-weight: lighter;
+    letter-spacing: 1.9px;
     .navbar-item {
       list-style: none;
     .navbar-link {
@@ -41,16 +45,18 @@
       color: rgba(0, 0, 0, 0.497);
     }
     }
-
   }
+}
  .icon-container {
-  border: 0.5px solid rgba(60, 60, 60, 0.667);
+  border: 0.5px solid rgba(168, 168, 168, 0.667);
   border-radius: 20px ;
+  width: 40px;
+  height: 40px;
+  margin-right: 100px;
+  
  .mask-icon {
-  align-self: flex-end;
+  padding: 12px;
   color: $blue-azurre;
-  margin-left: 200px;
-
 }
  }
 }
