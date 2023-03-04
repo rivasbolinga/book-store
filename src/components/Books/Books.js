@@ -1,10 +1,16 @@
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+import { useEffect } from 'react';
 import Book from './Book';
 import Form from './Form';
+import { getBooks } from '../../redux/books/booksSlice';
 
 const Books = () => {
   const { bookList } = useSelector((state) => state.books);
-
+  console.log(bookList);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getBooks());
+  }, [dispatch]);
   return (
     <>
       <section className="book-section">
@@ -17,8 +23,8 @@ const Books = () => {
             category={book.category}
           />
         ))}
-        <Form />
       </section>
+      <Form />
     </>
   );
 };

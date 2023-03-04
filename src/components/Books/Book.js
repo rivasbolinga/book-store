@@ -1,12 +1,11 @@
-import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
 import { removeBook } from '../../redux/books/booksSlice';
 
 const Book = ({
   id, category, title, author,
 }) => {
   const dispatch = useDispatch();
-
   return (
     <div className="book-card">
       <p className="book-title">{category}</p>
