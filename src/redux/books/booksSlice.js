@@ -27,7 +27,6 @@ export const postBooks = createAsyncThunk('book/postBooks', async (book) => {
     }),
   });
   const data = await response.json();
-  console.log(data);
   return data;
 });
 
@@ -52,7 +51,6 @@ const booksSlice = createSlice({
         title: action.payload.title,
         author: action.payload.author,
       };
-      console.log(state.bookList);
       state.bookList.push(newBook);
     },
     removeBook: (state, action) => {
@@ -87,7 +85,6 @@ const booksSlice = createSlice({
           ...book[1][0],
         }),
       );
-      console.log(newBook);
       return { ...state, bookList: newBook };
     });
   },
