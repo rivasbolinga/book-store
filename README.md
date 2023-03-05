@@ -11,6 +11,8 @@ alt="logo" width="140"  height="auto"  />
 **[BOOK STORE]** is a website built with React and Redux toolkit that renders a list of Books using an API, where you can store your favorite books.
 </div>
 
+<img width="940" alt="Screenshot 2023-03-05 at 15 33 25" src="https://user-images.githubusercontent.com/103900838/222966922-de22d2ef-1bec-4849-920d-b391367d68fa.png">
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -64,8 +66,7 @@ alt="logo" width="140"  height="auto"  />
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Not available at the moment. 
-Comign soon...
+You can see the live version here: https://bookstore-7ttq.onrender.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
