@@ -1,3 +1,5 @@
+import './Categories.scss';
+
 const checkBtn = () => (
   <button
     type="button"

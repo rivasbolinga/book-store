@@ -24,7 +24,9 @@ const Books = () => {
           />
         ))}
       </section>
-      <Form />
+      <section className="form-section">
+        <Form />
+      </section>
     </>
   );
 };
