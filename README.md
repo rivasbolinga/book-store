@@ -73,7 +73,7 @@ alt="logo" width="140"  height="auto"  />
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You can see the live version here 👉🏼: https://bookstore-7ttq.onrender.com/
+You can see the live version here: 👉🏼 https://bookstore-7ttq.onrender.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
