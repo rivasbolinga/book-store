@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import Book from './Book';
 import Form from './Form';
 import { getBooks } from '../../redux/books/booksSlice';
-import './Books.scss';
+import '../styles/Books.scss';
 
 const Books = () => {
   const { bookList } = useSelector((state) => state.books);

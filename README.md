@@ -8,7 +8,7 @@ alt="logo" width="140"  height="auto"  />
 
  <a name="about-project"></a>
 <!-- PROJECT DESCRIPTION -->
-**[BOOK STORE]** is a website built with React that renders a list of Books, where you can store then, as well as their information like author, categorie and others.
+**[BOOK STORE]** is a website built with React and Redux toolkit that renders a list of Books using an API, where you can store your favorite books.
 </div>
 
 
@@ -49,11 +49,13 @@ alt="logo" width="140"  height="auto"  />
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application.-->
-- [ ] **[Totally responsive]**
-- [ ] **[Pop-up menu for mobile version]**
+
 - [ ] **[Two pages: Books for the books list and categories]**
-- [ ] **[Books rended from harcoded data. ]**
-- [ ] **[Reducers using Redux: addBook and removeBook ]**
+- [ ] **[Add a book  to the render]**
+- [ ] **[Post a book to post it in the API]**
+- [ ] **[Remove book from the render]**
+- [ ] **[Remove book from API]**
+- [ ] **[Done with React and Redux toolkit]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -171,9 +173,10 @@ npm run deploy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Display a list of books]**
-- [ ] **[Add a book]**
-- [ ] **[Remove a selected book]**
+- [ ] **[ Responsive]**
+- [ ] **[Add category of the book]**
+- [ ] **[Categories section]**
+- [ ] **[Add progress of your book]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

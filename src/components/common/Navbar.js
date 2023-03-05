@@ -1,5 +1,5 @@
 import { Link, Outlet } from 'react-router-dom';
-import './Navbar.scss';
+import '../styles/Navbar.scss';
 import { GoPerson } from 'react-icons/go';
 
 const Navbar = () => (
