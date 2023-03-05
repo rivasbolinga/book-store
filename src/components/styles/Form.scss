@@ -1,7 +1,9 @@
 @import './common.scss';
+
 .form {
   border-top: 1px solid rgb(212, 211, 211);
   padding-top: 1.8rem;
+
   .form-title {
     font-size: 1.25rem;
     font-weight: bold;
@@ -13,6 +15,7 @@
     font-family: $montserrat;
     margin-bottom: 1.18rem;
   }
+
   input {
     padding: 0.813rem 15.688rem 0.813rem 1.063rem;
     border-radius: 4px;
@@ -20,6 +23,7 @@
     background-color: white;
     margin-right: 2.15rem;
   }
+
   input::placeholder {
     color: #888;
     font-family: $montserrat;
@@ -30,6 +34,7 @@
     line-height: normal;
     letter-spacing: -0.15px;
   }
+
   .submit-btn {
     background-color: $blue-azurre;
     border: none;

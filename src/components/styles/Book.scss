@@ -10,8 +10,10 @@
   justify-content: space-between;
   align-items: center;
   gap: 200px;
+
   .book-details {
     padding-left: 27px;
+
     .book-title {
       font-family: $roboto;
       font-size: 1.375rem;
@@ -22,6 +24,7 @@
       letter-spacing: -0.2px;
       margin-bottom: 5px;
     }
+
     .book-author {
       font-family: $roboto;
       font-size: 0.875rem;
@@ -32,6 +35,7 @@
       letter-spacing: normal;
       color: $blue;
     }
+
     .buttons {
       margin-top: 20px;
       display: flex;
@@ -61,22 +65,26 @@
     gap: 40px;
     justify-content: center;
     align-items: center;
-    .percentage{
+
+    .percentage {
       display: flex;
-      gap:20px;
-    .progress-icon {
-      width: 50px;
+      gap: 20px;
+
+      .progress-icon {
+        width: 50px;
+      }
+
+      .percentaje-num {
+        font-family: $montserrat;
+        font-size: 2rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+      }
     }
-    .percentaje-num {
-      font-family: $montserrat;
-      font-size: 2rem;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-    }
-  }
+
     .completed {
       font-family: $montserrat;
       color: rgb(171, 170, 170);
@@ -87,27 +95,32 @@
       line-height: normal;
       letter-spacing: normal;
     }
+
     .grey-line {
       width: 0.125rem;
       height: 4.375rem;
       background-color: #e8e8e8;
     }
+
     .chapter-container {
       padding-right: 70px;
       font-family: $roboto;
       font-stretch: normal;
       font-style: normal;
       line-height: normal;
+
       .current-chapter {
         font-size: 0.813rem;
         font-weight: 300;
         letter-spacing: normal;
         color: rgb(171, 170, 170);
       }
+
       .chapter {
         letter-spacing: -0.4px;
         margin-top: 0.4rem;
       }
+
       .update-btn {
         background-color: $blue-azurre;
         color: white;
@@ -124,11 +137,11 @@
 }
 
 @media only screen and (min-width: 1000px) {
-.book-card {
-  gap: 19rem;
-}
+  .book-card {
+    gap: 19rem;
+  }
 
-.grey-line {
-  margin: 0 3.5rem 0 5rem;
-}
+  .grey-line {
+    margin: 0 3.5rem 0 5rem;
+  }
 }
