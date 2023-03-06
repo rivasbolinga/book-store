@@ -1,6 +1,7 @@
 import { useDispatch } from 'react-redux';
 import React, { useState } from 'react';
 import { addBook, postBooks } from '../../redux/books/booksSlice';
+import '../styles/Form.scss';
 
 const Form = () => {
   const dispatch = useDispatch();
@@ -44,7 +45,7 @@ const Form = () => {
         className="submit-btn"
         type="submit"
       >
-        Add
+        ADD BOOK
       </button>
     </form>
   );

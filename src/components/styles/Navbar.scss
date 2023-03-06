@@ -1,0 +1,68 @@
+@import './common.scss';
+
+.navbar {
+  padding: 23px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #e8e8e8;
+
+  .nav-tit {
+    display: flex;
+    flex-direction: row;
+
+    .navbar-title {
+      font-size: 1.875rem;
+      margin-left: 40px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: $blue-azurre;
+      font-family: $roboto, sans-serif;
+      font-weight: 700;
+    }
+
+    .navbar-links {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      margin: 0 0 0 40px;
+      font-size: 15px;
+      padding: 5px;
+      border-radius: 5px;
+      font-family: $montserrat, sans-serif;
+      font-weight: lighter;
+      letter-spacing: 1.9px;
+
+      .navbar-item {
+        list-style: none;
+
+        .navbar-link {
+          color: $color-black;
+          text-decoration: none;
+        }
+
+        .categ {
+          color: rgba(0, 0, 0, 0.497);
+        }
+      }
+    }
+  }
+
+  .icon-container {
+    border: 0.5px solid rgba(168, 168, 168, 0.667);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 100px;
+
+    .mask-icon {
+      padding: 12px;
+      color: $blue-azurre;
+    }
+  }
+}

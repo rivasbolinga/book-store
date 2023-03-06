@@ -8,8 +8,10 @@ alt="logo" width="140"  height="auto"  />
 
  <a name="about-project"></a>
 <!-- PROJECT DESCRIPTION -->
-**[BOOK STORE]** is a website built with React that renders a list of Books, where you can store then, as well as their information like author, categorie and others.
+**[BOOK STORE]** is a website built with React and Redux toolkit that renders a list of Books using an API, where you can store your favorite books.
 </div>
+
+<img width="940" alt="Screenshot 2023-03-05 at 15 33 25" src="https://user-images.githubusercontent.com/103900838/222966922-de22d2ef-1bec-4849-920d-b391367d68fa.png">
 
 
 <!-- TABLE OF CONTENTS -->
@@ -44,16 +46,25 @@ alt="logo" width="140"  height="auto"  />
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/></a>
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
 <img align="center" src="https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg" alt="react" width="60" height="60"/></a>
+<a href="https://redux-toolkit.js.org/" target="_blank" rel="noreferrer">
+<img align="center" src="https://user-images.githubusercontent.com/103900838/222968100-66b1cdba-dcbe-4047-a88f-3f55ccf983ee.svg" alt="redux" width="60" height="60"/></a>
+<a href="https://sass-lang.com/" target="_blank" rel="noreferrer">
+<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="sass" width="60" height="60"/></a>
+
+
+
 
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application.-->
-- [ ] **[Totally responsive]**
-- [ ] **[Pop-up menu for mobile version]**
+
 - [ ] **[Two pages: Books for the books list and categories]**
-- [ ] **[Books rended from harcoded data. ]**
-- [ ] **[Reducers using Redux: addBook and removeBook ]**
+- [ ] **[Add a book  to the render]**
+- [ ] **[Post a book to post it in the API]**
+- [ ] **[Remove book from the render]**
+- [ ] **[Remove book from API]**
+- [ ] **[Done with React and Redux toolkit]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -62,8 +73,7 @@ alt="logo" width="140"  height="auto"  />
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Not available at the moment. 
-Comign soon...
+You can see the live version here: 👉🏼 https://bookstore-7ttq.onrender.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +86,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project, you need:
 
 - [ ] A PC running any operating system like Windows, Linux, or MacOS
 - [ ] An Internet connection
@@ -171,9 +181,10 @@ npm run deploy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Display a list of books]**
-- [ ] **[Add a book]**
-- [ ] **[Remove a selected book]**
+- [ ] **[ Responsive]**
+- [ ] **[Add category of the book]**
+- [ ] **[Categories section]**
+- [ ] **[Add progress of your book]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
