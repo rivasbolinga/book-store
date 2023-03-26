@@ -4,11 +4,11 @@ alt="logo" width="140"  height="auto"  />
   <br/>
 
 
-# 📖 [BOOK STORE] <a name="about-project"></a>
+# 📖 BOOK STORE <a name="about-project"></a>
 
  <a name="about-project"></a>
 <!-- PROJECT DESCRIPTION -->
-**[BOOK STORE]** is a website built with React and Redux toolkit that renders a list of Books using an API, where you can store your favorite books.
+**BOOK STORE** is a website built with React and Redux toolkit that renders a list of Books using an API, where you can store your favorite books.
 </div>
 
 <img width="940" alt="Screenshot 2023-03-05 at 15 33 25" src="https://user-images.githubusercontent.com/103900838/222966922-de22d2ef-1bec-4849-920d-b391367d68fa.png">
