@@ -45,8 +45,7 @@ alt="logo" width="140"  height="auto"  />
 <a href="https://www.w3.org/html/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="55" height="55"/></a><a href="https://www.w3schools.com/css/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55"/></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/></a>
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-<img align="center" src="https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg" alt="react" width="60" height="60"/></a>
-<a href="https://redux-toolkit.js.org/" target="_blank" rel="noreferrer">
+<img align="center" src="https://cdn-icons-png.flaticon.com/512/1183/1183672.png" alt="react" width="60" height="60"/></a>
 <img align="center" src="https://user-images.githubusercontent.com/103900838/222968100-66b1cdba-dcbe-4047-a88f-3f55ccf983ee.svg" alt="redux" width="60" height="60"/></a>
 <a href="https://sass-lang.com/" target="_blank" rel="noreferrer">
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="sass" width="60" height="60"/></a>
@@ -59,12 +58,12 @@ alt="logo" width="140"  height="auto"  />
 
 <!-- > Describe between 1-3 key features of the application.-->
 
-- [ ] **[Two pages: Books for the books list and categories]**
-- [ ] **[Add a book  to the render]**
-- [ ] **[Post a book to post it in the API]**
-- [ ] **[Remove book from the render]**
-- [ ] **[Remove book from API]**
-- [ ] **[Done with React and Redux toolkit]**
+- [ ] **Two pages: Books for the books list and categories**
+- [ ] **Add a book  to the render**
+- [ ] **Post a book to post it in the API**
+- [ ] **Remove book from the render**
+- [ ] **Remove book from API**
+- [ ] **Done with React and Redux toolkit**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -73,7 +72,7 @@ alt="logo" width="140"  height="auto"  />
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You can see the live version here: 👉🏼 https://bookstore-7ttq.onrender.com/
+You can see the live version 📍 [here](https://bookstore-7ttq.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,10 +180,10 @@ npm run deploy
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[ Responsive]**
-- [ ] **[Add category of the book]**
-- [ ] **[Categories section]**
-- [ ] **[Add progress of your book]**
+- [ ] **Responsive**
+- [ ] **Add category of the book**
+- [ ] **Categories section**
+- [ ] **Add progress of your book**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
